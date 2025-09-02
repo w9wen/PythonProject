@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Start Backend",
+            "type": "shell",
+            "command": "cd ${workspaceFolder}/backend && python -m uvicorn main:app --reload --host 0.0.0.0 --port 8000",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Start Frontend",
+            "type": "shell",
+            "command": "cd ${workspaceFolder}/frontend && npm run dev",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Start Application",
+            "dependsOn": ["Start Backend", "Start Frontend"],
+            "problemMatcher": []
+        }
+    ]
+}
