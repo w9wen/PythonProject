@@ -1,6 +1,6 @@
-# PiWebApp - Sample Project
+# YFP Credit Evaluation
 
-A full-stack application with Python FastAPI backend and React (Vite) frontend that can be deployed to both Raspberry Pi and web servers.
+A full-stack credit evaluation platform by Yulon Finance Philippines with a Python FastAPI backend and React (Vite) frontend. Includes PostgreSQL, WebSockets, and AI-powered analysis.
 
 ## Features
 

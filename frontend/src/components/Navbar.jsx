@@ -58,7 +58,7 @@ const Navbar = () => {
   return (
     <NavContainer>
       <NavContent>
-        <Logo>Pi Web App</Logo>
+  <Logo>YFP Credit Evaluation</Logo>
         
         {isAuthenticated ? (
           <NavLinks>

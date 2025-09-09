@@ -48,7 +48,7 @@ const LogoutButton = styled.button`
 `;
 
 const Navbar: React.FC = () => {
-  const { isAuthenticated, logout, user } = useAuth();
+  const { isAuthenticated, logout } = useAuth();
   const navigate = useNavigate();
 
   const handleLogout = () => {
@@ -59,7 +59,7 @@ const Navbar: React.FC = () => {
   return (
     <NavContainer>
       <NavContent>
-        <Logo>Pi Web App</Logo>
+  <Logo>YFP Credit Evaluation</Logo>
         
         {isAuthenticated ? (
           <NavLinks>

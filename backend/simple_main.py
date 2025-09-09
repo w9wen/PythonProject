@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-app = FastAPI(title="PythonProject API")
+app = FastAPI(title="YFP Credit Evaluation API")
 
 # Configure CORS
 app.add_middleware(
@@ -14,7 +14,7 @@ app.add_middleware(
 
 @app.get("/")
 async def root():
-    return {"message": "Welcome to the PythonProject API"}
+    return {"message": "Welcome to the YFP Credit Evaluation API"}
 
 @app.get("/health")
 async def health_check():
