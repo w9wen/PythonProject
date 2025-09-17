@@ -21,6 +21,9 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 </script>
 
+# This page discourages search indexing. It is not access control.
+<meta name="robots" content="noindex,nofollow">
+
 # YFP Credit Evaluation Docs
 
 Welcome! This site serves the project documentation from the `docs/` folder.

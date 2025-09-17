@@ -11,3 +11,10 @@ kramdown:
 
 # Optional toggles supported by some themes
 show_downloads: false
+
+# Add meta robots to discourage indexing (not access control)
+defaults:
+  - scope:
+      path: ""
+    values:
+      robots: noindex, nofollow

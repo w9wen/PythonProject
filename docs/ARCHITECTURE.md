@@ -20,6 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 </script>
 
+<meta name="robots" content="noindex,nofollow">
+
 <div style="font-size: 16px; line-height: 1.6">
 
 # Credit Evaluation System — Architecture & Implementation Notes 🛠️
