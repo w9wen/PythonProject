@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <meta name="robots" content="noindex,nofollow">
 
-<div style="font-size: 16px; line-height: 1.6">
+<div markdown="1" style="font-size: 16px; line-height: 1.6">
 # Credit Evaluation System — Functional Specification (Section-by-Section) ✨
 
 This document is the user/developer communication spec. System architecture and implementation notes were moved to `ARCHITECTURE.md`.
