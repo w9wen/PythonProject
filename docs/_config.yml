@@ -8,6 +8,7 @@ markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
+  parse_block_html: true
 
 # Optional toggles supported by some themes
 show_downloads: false

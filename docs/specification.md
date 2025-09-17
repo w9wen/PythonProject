@@ -37,7 +37,7 @@ The following mirrors the Chinese structure exactly, with English terminology an
 
 ### I. Request Summary (REQUEST) 📝
 - Purpose: Consolidate the core terms and structure of the credit application as the index for review and approval.
-- Key Fields
+#### Key Fields
 
 | Category | Fields |
 |---|---|
@@ -49,7 +49,7 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | Payment Terms | Method; PDC plan (count, dates, amounts); auto-debit instructions |
 | Protections/CPs | Insurance (coverage, beneficiary); notarization; JSS; collateral/retention; delivery/acceptance preconditions |
 | Use of Proceeds | Description and timelines |
-- Information Providers
+#### Information Providers
 
 | Role | Responsibility |
 |---|---|
@@ -57,7 +57,7 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | Sales | Commercial terms, supplier coordination |
 | Borrower | Management inputs, approvals |
 | Supplier | Quotation, equipment details |
-- Required Uploads
+#### Required Uploads
 
 | Document | Purpose |
 |---|---|
@@ -69,14 +69,14 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | Use-of-proceeds statement | Purpose justification |
 | Authorization docs/seal | Signing authority |
 | Insurance clauses/quotes | Beneficiary and coverage |
-- Key Owner/Manager
+#### Key Owner/Manager
 
 | Owner | Notes |
 |---|---|
 | AO/RM | Case owner |
 | Sales | Co-owner for commercial terms |
 
-- Validation & Rules
+#### Validation & Rules
 
 | Rule |
 |---|
@@ -86,7 +86,7 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | PDC schedule reconciles to amortization; insurance beneficiary = lender; JSS per policy |
 | Disbursement only after delivery/acceptance and insurance in force; exceptions justified |
 
-- Calculations / Derived Fields
+#### Calculations / Derived Fields
 
 | Calculation | Notes |
 |---|---|
@@ -95,7 +95,7 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | Sub-limit utilization | Forecast by drawdown plan |
 | Advance rate | Effective vs. equipment value |
 
-- Edge Cases & Red Flags
+#### Edge Cases & Red Flags
 
 | Red flag |
 |---|
@@ -106,7 +106,7 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | Missing insurance beneficiary |
 | Absent JSS despite weak borrower profile |
 
-- Example — this case
+#### Example — this case
 
 | Field | Value | Source |
 |---|---|---|
@@ -120,7 +120,7 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | Payment method | Post Dated Checks (PDC) | p.1 |
 | Indicative CPs | EEI insurance naming YFP as Assured/Loss Payee; notarization; upfront fee 1% per availment | p.2 |
 
-- Case-specific notes (from sample PDF):
+#### Case-specific notes (from sample PDF):
 	- Borrower: Sparkle and Glow Beauty Innovations Corp. (p.1)
 	- Source of account: BDO – E. Ching (p.1)
 	- Credit accommodation: Credit Line via Finance Lease and Medium-term Loan; Availment No.: 1st (p.1)
@@ -135,7 +135,7 @@ The following mirrors the Chinese structure exactly, with English terminology an
 
 ### II. Sales Recommendation (SALES RECOMMENDATION) 💼
 - Purpose: Sales’ rationale for the transaction’s advantages and the proposed credit structure.
-- Key Fields
+#### Key Fields
 
 | Category | Fields |
 |---|---|
@@ -143,27 +143,27 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | Market & Supplier | Competitive landscape; supplier evaluation; hit-rate |
 | Terms vs. Market | Pricing/tenor/structure; exceptions |
 | Upside | Cross-sell/upsell; pipeline |
-- Information Providers
+#### Information Providers
 
 | Role | Responsibility |
 |---|---|
 | AO | Origination context |
 | Sales Manager | Recommendation and market view |
-- Required Uploads
+#### Required Uploads
 
 | Document | Purpose |
 |---|---|
 | Sales recommendation memo | Deal rationale |
 | Competitor/supplier comparison | Market context |
 | Relationship & hit-rate | Historical performance |
-- Key Owner/Manager
+#### Key Owner/Manager
 
 | Owner | Notes |
 |---|---|
 | Sales Manager | Lead author |
 | AO | Supports |
 
-- Validation & Rules
+#### Validation & Rules
 
 | Rule |
 |---|
@@ -171,14 +171,14 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | Include competitor benchmark when relevant |
 | Document supplier due diligence |
 
-- Edge Cases & Red Flags
+#### Edge Cases & Red Flags
 
 | Red flag |
 |---|
 | Rationale without financial support |
 | Supplier concentration risk ignored |
 
-- Example — this case
+#### Example — this case
 
 | Topic | Detail | Source |
 |---|---|---|
@@ -186,7 +186,7 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | Conditions/fees | EEI insurance; Notarial fee PHP 3,000 | p.2 |
 | MTL documents | Quotation/invoice; PN+Addendum; S&P with Installment; Upfront fee 1% per availment | p.2 |
 
-- Case-specific notes (from sample PDF):
+#### Case-specific notes (from sample PDF):
 	- Documentation/conditions excerpted prior to section header (p.2):
 		- EEI insurance covering leased asset with YFP as Assured Party or Loss Payee
 		- Notarial fee: PHP 3,000
@@ -199,7 +199,7 @@ The following mirrors the Chinese structure exactly, with English terminology an
 
 ### III. Background Information (BACKGROUND INFORMATION) 🏢
 - Purpose: Present company fundamentals, operating scale, ownership and guarantor backgrounds, KYC and external credit checks.
-- Key Fields
+#### Key Fields
 
 | Category | Fields |
 |---|---|
@@ -209,7 +209,7 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | KYC | Adverse media; BAP/CMAP/Loandex refs; conclusion |
 | Trade checking | Counterparties; remarks; outcome |
 | Bank checking | Banks; ADB/OB; confirmations |
-- Subsections and Sources
+#### Subsections and Sources
 
 | Subsection | Source |
 |---|---|
@@ -220,7 +220,7 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | KYC & credit checks | Adverse media; BAP-NFIS; CMAP; Loandex |
 | Trade checking | Vendor/customer records |
 | Bank checking | Bank confirmations; letters |
-- Required Uploads
+#### Required Uploads
 
 | Document | Purpose |
 |---|---|
@@ -232,7 +232,7 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | BAP/CMAP/Loandex | External credit checks |
 | Trade/bank checking | Conduct verification |
 | Tax documents | Financial corroboration |
-- Key Owner/Manager
+#### Key Owner/Manager
 
 | Owner | Notes |
 |---|---|
@@ -240,7 +240,7 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | AO | Background & interviews |
 | Legal | Resolutions/authorizations |
 
-- Validation & Rules
+#### Validation & Rules
 
 | Rule |
 |---|
@@ -248,7 +248,7 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | KYC status recorded (Pass/Pass w/ conditions/Review/Fail) with evidence |
 | Guarantor coverage adequate relative to exposure; addresses validated |
 
-- Edge Cases & Red Flags
+#### Edge Cases & Red Flags
 
 | Red flag |
 |---|
@@ -258,14 +258,14 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | Volatile OB/ADB or unfavorable bank checking |
 | Trade disputes indicated |
 
-- Example — this case
+#### Example — this case
 
 | Topic | Detail | Source |
 |---|---|---|
 | JSS snapshot | Camille Padilla: assets ~PHP 4.80M; liabilities ~PHP 7.63M; net negative; co-surety assets list missing; one surety has minor child | p.3, p.7 |
 | Bank checking | BDO CA (2018; OB/ADB 6 digits; no bounced checks; active). BPI CA (2019; ADB PHP 42,748.69; active; OB not allowed) | p.4 |
 
-- Case-specific notes (from sample PDF):
+#### Case-specific notes (from sample PDF):
 	- Guarantor (JSS) snapshot (p.3): Camille Padilla — personal assets ~PHP 4.80M; personal liabilities ~PHP 7.63M; existing facilities for borrower ~PHP 33.24M; net personal position negative; no submitted assets list for co-surety (Krishia Dizon noted)
 	- Bank checking (p.4):
 		- BDO CA (Rockwell Center - Makati): accounts opened 2018; OB/ADB indicated as 6 digits; no bounced checks as of 03/27/2025; contact listed
@@ -273,7 +273,7 @@ The following mirrors the Chinese structure exactly, with English terminology an
 
 ### IV. Financial Performance (FINANCIAL PERFORMANCE) 📊
 - Purpose: Present recent financials, ratios/coverage, and cashflows; explain material changes.
-- Content Structure
+#### Content Structure
 
 | Section | Contents |
 |---|---|
@@ -285,14 +285,14 @@ The following mirrors the Chinese structure exactly, with English terminology an
 	- Cashflow: operating cashflow, investing and financing flows; reconciliation to bank statements (spot checks).
 	- Ratios: current, quick, leverage (debt/equity), DSCR, margins (gross/net), turnover (inventory, receivables days), coverage metrics.
 	- Trends and explanations for year-over-year movements and seasonality.
-- Information Providers
+#### Information Providers
 
 | Role | Responsibility |
 |---|---|
 | Client | Provide FS (audited preferred; else management FS) |
 | AO/Credit Analyst | Compute ratios and narrative |
 | Banks | Provide corroboration (statements/letters) |
-- Required Uploads
+#### Required Uploads
 
 | Document | Purpose |
 |---|---|
@@ -303,14 +303,14 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | FA register | PP&E reconciliation |
 | Tax filings | External corroboration |
 | Equipment invoices & acceptance | Capex evidence |
-- Key Owner/Manager
+#### Key Owner/Manager
 
 | Owner | Notes |
 |---|---|
 | Credit Analyst | Prepares analysis |
 | AO | Facilitates data |
 
-- Validation & Rules
+#### Validation & Rules
 
 | Rule |
 |---|
@@ -318,7 +318,7 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | Tie AR/AP aging and inventory to BS totals; reconcile FA register to net PP&E |
 | Compute ratios consistently; DSCR uses normalized EBITDA and scheduled debt service |
 
-- Calculations / Ratio Formulas (indicative)
+#### Calculations / Ratio Formulas (indicative)
 
 | Metric | Formula |
 |---|---|
@@ -329,7 +329,7 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | Inventory Turnover | COGS / Avg Inventory |
 | Receivable Days | (AR / Revenue) * 365 |
 
-- Edge Cases & Red Flags
+#### Edge Cases & Red Flags
 
 | Red flag |
 |---|
@@ -339,7 +339,7 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | Negative operating cashflow or sustained losses |
 | Overreliance on short-term funding |
 
-- Example — this case
+#### Example — this case
 
 | Topic | Detail | Source |
 |---|---|---|
@@ -348,7 +348,7 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | Working capital | AR 8 → 0 → 0 days; Inventory 904 → 382 → 90 days; AP 519 → 405 → 350 days; Funding gap 393 → -24 → -260 | p.5 |
 | Liquidity & leverage | Current 1.91 → 1.19 → 0.59; Quick 0.11 → 0.16 → 0.18; D/E -40.51x → 7.49x → 2.33x | p.5 |
 
-- Case-specific notes (from sample PDF):
+#### Case-specific notes (from sample PDF):
 	- Selected P&L figures (p.5): Net Income: 2021 PHP 1.393M; 2022 PHP 7.209M; 2023 PHP 11.534M; Net income margin: 13.74% → 26.38% → 28.15%
 	- Ratios and working capital (p.5):
 		- Sales growth: 169.54% (2021→2022); 49.91% (2022→2023)
@@ -359,40 +359,40 @@ The following mirrors the Chinese structure exactly, with English terminology an
 
 ### V. Risks & Mitigants (RISKS & MITIGANTS) ⚠️
 - Purpose: Identify principal risks (e.g., liquidity, fund diversion, weak JSS, inventory obsolescence) and specific mitigants.
-- Key Fields
+#### Key Fields
 
 | Category | Fields |
 |---|---|
 | Risk register | id; category; description |
 | Ratings | Likelihood; impact; inherent/residual |
 | Mitigants | Action; owner; due date; expected effect; monitoring plan |
-- Information Providers
+#### Information Providers
 
 | Role | Responsibility |
 |---|---|
 | Credit Risk | Risk register ownership |
 | AO | Operational context |
 | Compliance/Legal | Policy/Legal inputs |
-- Required Uploads
+#### Required Uploads
 
 | Document | Purpose |
 |---|---|
 | Conditions evidence | Support for mitigants (insurance, deposits, staged disbursement, etc.) |
-- Key Owner/Manager
+#### Key Owner/Manager
 
 | Owner | Notes |
 |---|---|
 | Credit Risk | Owns risk register |
 | Compliance/Legal | Co-owners for mitigants |
 
-- Validation & Rules
+#### Validation & Rules
 
 | Rule |
 |---|
 | High/critical risks must have at least one concrete mitigant or explicit acceptance |
 | Link mitigants to policy clauses (insurance beneficiary, staged disbursement CPs) |
 
-- Edge Cases & Red Flags
+#### Edge Cases & Red Flags
 
 | Red flag |
 |---|
@@ -400,21 +400,21 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | No owner/timeline |
 | Infeasible dependencies |
 
-- Example — this case
+#### Example — this case
 
 | Topic | Detail | Source |
 |---|---|---|
 | Key risks | Liquidity strain (current ratio 0.59); weak JSS coverage; high inventory days (improving); exposure vs. guarantor capacity | p.5–7 |
 | Candidate mitigants | EEI insurance beneficiary; staged disbursement; higher equity/deposit; complete co-surety assets; monitor ADB/OB; align PDC to amortization | p.2, p.5–7 |
 
-- Case-specific notes (from sample PDF):
+#### Case-specific notes (from sample PDF):
 	- Shareholder advances (p.6): Non-interest-bearing advances from Chairman/President/CEO used to support operations during pandemic; decreasing balance (PHP 44.56M in 2021 → PHP 27.45M in 2023)
 	- Cashflow/EBITDA (p.6): EBITDA ~PHP 17.28M (2023) vs. PHP 11.91M (2022); no historical debt service 2021–2023 noted
 	- Weak JSS (p.7): Surety personal assets (~PHP 4.80M) < personal liabilities (~PHP 7.63M); proposed PHP 30M loan increases exposure; co-surety assets list not submitted; one surety has a minor child; family has other business activities
 
 ### VI. Credit Recommendation/Justification (CREDIT RECOMMENDATION/JUSTIFICATION) ✅
 - Purpose: After weighing risks and mitigants, specify facility limit(s), sub-limits, drawdown cadence, conditions precedent (CP), and prohibited actions.
-- Key Fields
+#### Key Fields
 
 | Category | Fields |
 |---|---|
@@ -422,26 +422,26 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | Disbursement plan | Stages/milestones; documentation triggers (delivery/acceptance/insurance) |
 | CPs & Covenants | Conditions precedent; ongoing covenants; prohibited actions; exceptions |
 | Residual risk | Statement; justification; monitoring cadence |
-- Information Providers
+#### Information Providers
 
 | Role | Responsibility |
 |---|---|
 | Credit review team | Draft recommendation and rationale |
-- Required Uploads
+#### Required Uploads
 
 | Document | Purpose |
 |---|---|
 | Meeting minutes | Decision evidence |
 | Conditions checklist | CP tracking |
 | Annexes/amendments | Contractual terms |
-- Key Owner/Manager
+#### Key Owner/Manager
 
 | Owner | Notes |
 |---|---|
 | Credit Review Lead | Drafting |
 | Approver/Committee | Decision authority |
 
-- Validation & Rules
+#### Validation & Rules
 
 | Rule |
 |---|
@@ -449,7 +449,7 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | Disbursement matches delivery/acceptance; prohibited actions align to policy |
 | Exceptions stated and approved; monitoring cadence and reporting obligations defined |
 
-- Edge Cases & Red Flags
+#### Edge Cases & Red Flags
 
 | Red flag |
 |---|
@@ -457,38 +457,38 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | Drawdown plan not tied to documentary evidence |
 | Missing prohibited action list |
 
-- Example — this case
+#### Example — this case
 
 | Topic | Detail | Source |
 |---|---|---|
 | Indicative terms | Refer to Request: Lease + two MTL sub-limits with tenors/payments and IRR/EY/AOR | p.1 |
 | CPs & covenants | Insurance beneficiary; complete docs (quotation/invoice, PN+Addendum, S&P Installment); PDCs; disbursement on delivery & acceptance; consider JSS strengthening | p.1–2 |
 
-- Case-specific notes (from sample PDF):
+#### Case-specific notes (from sample PDF):
 	- Not explicitly presented in extracted pages; recommendation terms appear interleaved with request/financial sections. Refer to Request table (p.1) for indicative terms and to Risk notes for CP concepts (e.g., insurance beneficiary, staged disbursement).
 
 ### Sign-off & Authority (Credit Recommending/Endorsing/Approval Authority) ✍️
 - Purpose: Summarize drafter, reviewer(s), co-signees, approver(s), and dates.
-- Required Uploads
+#### Required Uploads
 
 | Document | Purpose |
 |---|---|
 | Sign-off form; e-approval screenshots | Approval evidence |
-- Key Fields
+#### Key Fields
 
 | Field | Notes |
 |---|---|
 | Drafter; reviewers; endorsers; approver(s) | Roles and names |
 | Dates; authority references | Timeline and authority level |
 | Comments | Approval remarks |
-- Key Owner/Manager
+#### Key Owner/Manager
 
 | Owner | Notes |
 |---|---|
 | Credit Administration/PMO | Workflow integrity |
 | Approver(s) | Final sign-off |
 
-- Validation & Rules
+#### Validation & Rules
 
 | Rule |
 |---|
@@ -496,7 +496,7 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | Approvals dated/sequenced; conditional approvals captured |
 | Immutable audit trail linked to report version |
 
-- Edge Cases & Red Flags
+#### Edge Cases & Red Flags
 
 | Red flag |
 |---|
@@ -504,7 +504,7 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | Approver outside authority |
 | Unsigned or missing artifacts |
 
-- Example — this case
+#### Example — this case
 
 | Topic | Detail | Source |
 |---|---|---|
@@ -512,12 +512,12 @@ The following mirrors the Chinese structure exactly, with English terminology an
 
 ### Appendix A: Credit Grading Parameter 🧮
 - Purpose: Quantify management/operations, financials, and conduct; aggregate to a grade.
-- Required Uploads
+#### Required Uploads
 
 | Document | Purpose |
 |---|---|
 | Scorecard; calculation details; screenshots | Grading evidence |
-- Key Fields
+#### Key Fields
 
 | Field | Notes |
 |---|---|
@@ -525,14 +525,14 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | Component scores | Management/operations; financial; conduct |
 | Total score | Aggregate result |
 | Grade & threshold | Mapped grade |
-- Key Owner/Manager
+#### Key Owner/Manager
 
 | Owner | Notes |
 |---|---|
 | Credit Risk | Model owner |
 | Analyst | Inputs to score |
 
-- Validation & Rules
+#### Validation & Rules
 
 | Rule |
 |---|
@@ -540,14 +540,14 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | Thresholds approved by policy |
 | Overrides documented and approved |
 
-- Edge Cases & Red Flags
+#### Edge Cases & Red Flags
 
 | Red flag |
 |---|
 | Missing evidence for component scores |
 | Grade inconsistent with financial risk and conduct |
 
-- Example — this case
+#### Example — this case
 
 | Topic | Detail | Source |
 |---|---|---|
@@ -555,12 +555,12 @@ The following mirrors the Chinese structure exactly, with English terminology an
 
 ### Appendix B: Client Visit Pictures 📸
 - Purpose: On-site evidence of equipment, footfall, storefront, and operating conditions.
-- Required Uploads
+#### Required Uploads
 
 | Document | Purpose |
 |---|---|
 | Photos/videos (geotagged/time-stamped) | Site evidence |
-- Key Fields
+#### Key Fields
 
 | Field | Notes |
 |---|---|
@@ -568,21 +568,21 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | Timestamps & geolocation | Integrity and provenance |
 | Annotations | Brief descriptions |
 | Linkages | Map to equipment items/areas |
-- Key Owner/Manager
+#### Key Owner/Manager
 
 | Owner | Notes |
 |---|---|
 | AO/RM | Capture |
 | Operations/Audit | Validation |
 
-- Validation & Rules
+#### Validation & Rules
 
 | Rule |
 |---|
 | Photos geotagged/time-stamped; no alteration |
 | Link each photo to equipment/location; align with delivery/acceptance docs |
 
-- Edge Cases & Red Flags
+#### Edge Cases & Red Flags
 
 | Red flag |
 |---|
@@ -590,7 +590,7 @@ The following mirrors the Chinese structure exactly, with English terminology an
 | Mismatched timestamps |
 | Missing required angles or serial labels |
 
-- Example — this case
+#### Example — this case
 
 | Topic | Detail | Source |
 |---|---|---|
