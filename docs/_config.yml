@@ -1,0 +1,13 @@
+title: YFP Credit Evaluation Docs
+description: System specification and architecture for YFP Credit Evaluation
+# Built-in GitHub Pages theme
+theme: jekyll-theme-cayman
+
+# Ensure GFM-style Markdown is parsed correctly
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Optional toggles supported by some themes
+show_downloads: false
