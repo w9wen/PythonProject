@@ -100,54 +100,93 @@ Consolidate the core terms and structure of the credit application as the index 
 </table>
 #### Key Owner/Manager
 
-| Owner | Notes |
-|---|---|
-| AO/RM | Case owner |
-| Sales | Co-owner for commercial terms |
+<table>
+	<thead>
+		<tr>
+			<th>Owner</th>
+			<th>Notes</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td>AO/RM</td><td>Case owner</td></tr>
+		<tr><td>Sales</td><td>Co-owner for commercial terms</td></tr>
+	</tbody>
+</table>
 
 #### Validation & Rules
 
-| Rule |
-|---|
-| Currency must be ISO-4217; tenor 1–84 months; repayment frequency in {monthly, quarterly} |
-| Equipment requires supplier and indicative price; serial numbers before disbursement |
-| IRR/EY from cashflow schedule; disclose fees; DST compliant |
-| PDC schedule reconciles to amortization; insurance beneficiary = lender; JSS per policy |
-| Disbursement only after delivery/acceptance and insurance in force; exceptions justified |
+<table>
+	<thead>
+		<tr>
+			<th>Rule</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td>Currency must be ISO-4217; tenor 1–84 months; repayment frequency in {monthly, quarterly}</td></tr>
+		<tr><td>Equipment requires supplier and indicative price; serial numbers before disbursement</td></tr>
+		<tr><td>IRR/EY from cashflow schedule; disclose fees; DST compliant</td></tr>
+		<tr><td>PDC schedule reconciles to amortization; insurance beneficiary = lender; JSS per policy</td></tr>
+		<tr><td>Disbursement only after delivery/acceptance and insurance in force; exceptions justified</td></tr>
+	</tbody>
+</table>
 
 #### Calculations / Derived Fields
 
-| Calculation | Notes |
-|---|---|
-| Monthly installment | Derived from principal, tenor, rate |
-| EY | From full cashflow incl. fees/DST |
-| Sub-limit utilization | Forecast by drawdown plan |
-| Advance rate | Effective vs. equipment value |
+<table>
+	<thead>
+		<tr>
+			<th>Calculation</th>
+			<th>Notes</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td>Monthly installment</td><td>Derived from principal, tenor, rate</td></tr>
+		<tr><td>EY</td><td>From full cashflow incl. fees/DST</td></tr>
+		<tr><td>Sub-limit utilization</td><td>Forecast by drawdown plan</td></tr>
+		<tr><td>Advance rate</td><td>Effective vs. equipment value</td></tr>
+	</tbody>
+</table>
 
 #### Edge Cases & Red Flags
 
-| Red flag |
-|---|
-| Incomplete equipment specs |
-| Large used-equipment component without valuation |
-| PDC dates misaligned with cashflow |
-| High fees relative to principal |
-| Missing insurance beneficiary |
-| Absent JSS despite weak borrower profile |
+<table>
+	<thead>
+		<tr>
+			<th>Red flag</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td>Incomplete equipment specs</td></tr>
+		<tr><td>Large used-equipment component without valuation</td></tr>
+		<tr><td>PDC dates misaligned with cashflow</td></tr>
+		<tr><td>High fees relative to principal</td></tr>
+		<tr><td>Missing insurance beneficiary</td></tr>
+		<tr><td>Absent JSS despite weak borrower profile</td></tr>
+	</tbody>
+</table>
 
 #### Example — this case
 
-| Field | Value | Source |
-|---|---|---|
-| Borrower | Sparkle and Glow Beauty Innovations Corp. | p.1 |
-| Intake/Source | BDO – E. Ching | p.1 |
-| Instrument | Credit Line via Finance Lease and Medium-term Loan (1st availment) | p.1 |
-| Asset | Aesthetic/Medical Equipment; Brand: BTL; Condition: Brand New | p.1 |
-| Sub-limit 1 (Leasing) | PHP 20,000,000; 36 mos; Monthly PHP 713,055; EY ~17%; IRR ~17%; AOR ~28.35% | p.1 |
-| Sub-limit 2 (MTL A) | PHP 10,000,000; 24 mos; Monthly PHP 494,423; IRR 18.04%; AOR 18.66% | p.1 |
-| Sub-limit 3 (MTL B) | PHP 10,000,000; 36 mos; Monthly PHP 356,528; IRR 18.07%; AOR 28.35% | p.1 |
-| Payment method | Post Dated Checks (PDC) | p.1 |
-| Indicative CPs | EEI insurance naming YFP as Assured/Loss Payee; notarization; upfront fee 1% per availment | p.2 |
+<table>
+	<thead>
+		<tr>
+			<th>Field</th>
+			<th>Value</th>
+			<th>Source</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td>Borrower</td><td>Sparkle and Glow Beauty Innovations Corp.</td><td>p.1</td></tr>
+		<tr><td>Intake/Source</td><td>BDO – E. Ching</td><td>p.1</td></tr>
+		<tr><td>Instrument</td><td>Credit Line via Finance Lease and Medium-term Loan (1st availment)</td><td>p.1</td></tr>
+		<tr><td>Asset</td><td>Aesthetic/Medical Equipment; Brand: BTL; Condition: Brand New</td><td>p.1</td></tr>
+		<tr><td>Sub-limit 1 (Leasing)</td><td>PHP 20,000,000; 36 mos; Monthly PHP 713,055; EY ~17%; IRR ~17%; AOR ~28.35%</td><td>p.1</td></tr>
+		<tr><td>Sub-limit 2 (MTL A)</td><td>PHP 10,000,000; 24 mos; Monthly PHP 494,423; IRR 18.04%; AOR 18.66%</td><td>p.1</td></tr>
+		<tr><td>Sub-limit 3 (MTL B)</td><td>PHP 10,000,000; 36 mos; Monthly PHP 356,528; IRR 18.07%; AOR 28.35%</td><td>p.1</td></tr>
+		<tr><td>Payment method</td><td>Post Dated Checks (PDC)</td><td>p.1</td></tr>
+		<tr><td>Indicative CPs</td><td>EEI insurance naming YFP as Assured/Loss Payee; notarization; upfront fee 1% per availment</td><td>p.2</td></tr>
+	</tbody>
+</table>
 
 #### Case-specific notes (from sample PDF):
 
@@ -170,54 +209,107 @@ Consolidate the core terms and structure of the credit application as the index 
 Sales’ rationale for the transaction’s advantages and the proposed credit structure.
 #### Key Fields
 
-| Category | Fields |
-|---|---|
-| Rationale & Fit | Strategic rationale; relationship context; expected share of wallet |
-| Market & Supplier | Competitive landscape; supplier evaluation; hit-rate |
-| Terms vs. Market | Pricing/tenor/structure; exceptions |
-| Upside | Cross-sell/upsell; pipeline |
+<table>
+	<thead>
+		<tr>
+			<th>Category</th>
+			<th>Fields</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td>Rationale &amp; Fit</td><td>Strategic rationale; relationship context; expected share of wallet</td></tr>
+		<tr><td>Market &amp; Supplier</td><td>Competitive landscape; supplier evaluation; hit-rate</td></tr>
+		<tr><td>Terms vs. Market</td><td>Pricing/tenor/structure; exceptions</td></tr>
+		<tr><td>Upside</td><td>Cross-sell/upsell; pipeline</td></tr>
+	</tbody>
+</table>
 #### Information Providers
 
-| Role | Responsibility |
-|---|---|
-| AO | Origination context |
-| Sales Manager | Recommendation and market view |
+<table>
+	<thead>
+		<tr>
+			<th>Role</th>
+			<th>Responsibility</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td>AO</td><td>Origination context</td></tr>
+		<tr><td>Sales Manager</td><td>Recommendation and market view</td></tr>
+	</tbody>
+</table>
 #### Required Uploads
 
-| Document | Purpose |
-|---|---|
-| Sales recommendation memo | Deal rationale |
-| Competitor/supplier comparison | Market context |
-| Relationship & hit-rate | Historical performance |
+<table>
+	<thead>
+		<tr>
+			<th>Document</th>
+			<th>Purpose</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td>Sales recommendation memo</td><td>Deal rationale</td></tr>
+		<tr><td>Competitor/supplier comparison</td><td>Market context</td></tr>
+		<tr><td>Relationship &amp; hit-rate</td><td>Historical performance</td></tr>
+	</tbody>
+</table>
 #### Key Owner/Manager
 
-| Owner | Notes |
-|---|---|
-| Sales Manager | Lead author |
-| AO | Supports |
+<table>
+	<thead>
+		<tr>
+			<th>Owner</th>
+			<th>Notes</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td>Sales Manager</td><td>Lead author</td></tr>
+		<tr><td>AO</td><td>Supports</td></tr>
+	</tbody>
+</table>
 
 #### Validation & Rules
 
-| Rule |
-|---|
-| State deviations from policy and justify |
-| Include competitor benchmark when relevant |
-| Document supplier due diligence |
+<table>
+	<thead>
+		<tr>
+			<th>Rule</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td>State deviations from policy and justify</td></tr>
+		<tr><td>Include competitor benchmark when relevant</td></tr>
+		<tr><td>Document supplier due diligence</td></tr>
+	</tbody>
+</table>
 
 #### Edge Cases & Red Flags
 
-| Red flag |
-|---|
-| Rationale without financial support |
-| Supplier concentration risk ignored |
+<table>
+	<thead>
+		<tr><th>Red flag</th></tr>
+	</thead>
+	<tbody>
+		<tr><td>Rationale without financial support</td></tr>
+		<tr><td>Supplier concentration risk ignored</td></tr>
+	</tbody>
+</table>
 
 #### Example — this case
 
-| Topic | Detail | Source |
-|---|---|---|
-| Highlights | ~6 years in operation; Net Income uptrend 2021→2023; 2024 service income ~PHP 3.3M–7.3M; strong supplier/customer relationships | p.2 |
-| Conditions/fees | EEI insurance; Notarial fee PHP 3,000 | p.2 |
-| MTL documents | Quotation/invoice; PN+Addendum; S&P with Installment; Upfront fee 1% per availment | p.2 |
+<table>
+	<thead>
+		<tr>
+			<th>Topic</th>
+			<th>Detail</th>
+			<th>Source</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td>Highlights</td><td>~6 years in operation; Net Income uptrend 2021→2023; 2024 service income ~PHP 3.3M–7.3M; strong supplier/customer relationships</td><td>p.2</td></tr>
+		<tr><td>Conditions/fees</td><td>EEI insurance; Notarial fee PHP 3,000</td><td>p.2</td></tr>
+		<tr><td>MTL documents</td><td>Quotation/invoice; PN+Addendum; S&P with Installment; Upfront fee 1% per availment</td><td>p.2</td></tr>
+	</tbody>
+</table>
 
 #### Case-specific notes (from sample PDF):
 
@@ -238,69 +330,120 @@ Sales’ rationale for the transaction’s advantages and the proposed credit st
 Present company fundamentals, operating scale, ownership and guarantor backgrounds, KYC and external credit checks.
 #### Key Fields
 
-| Category | Fields |
-|---|---|
-| Company profile | Legal name; registration number; incorporation date; business scope/industry code; principal place |
-| Ownership & mgmt. | Shareholders (names, %); board/officers (names, titles); org chart |
-| Guarantors (JSS) | Identity info; relationship; assets/liabilities; address |
-| KYC | Adverse media; BAP/CMAP/Loandex refs; conclusion |
-| Trade checking | Counterparties; remarks; outcome |
-| Bank checking | Banks; ADB/OB; confirmations |
+<table>
+	<thead>
+		<tr>
+			<th>Category</th>
+			<th>Fields</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td>Company profile</td><td>Legal name; registration number; incorporation date; business scope/industry code; principal place</td></tr>
+		<tr><td>Ownership &amp; mgmt.</td><td>Shareholders (names, %); board/officers (names, titles); org chart</td></tr>
+		<tr><td>Guarantors (JSS)</td><td>Identity info; relationship; assets/liabilities; address</td></tr>
+		<tr><td>KYC</td><td>Adverse media; BAP/CMAP/Loandex refs; conclusion</td></tr>
+		<tr><td>Trade checking</td><td>Counterparties; remarks; outcome</td></tr>
+		<tr><td>Bank checking</td><td>Banks; ADB/OB; confirmations</td></tr>
+	</tbody>
+</table>
 #### Subsections and Sources
 
-| Subsection | Source |
-|---|---|
-| Company profile & scope | Company docs; AO interview notes |
-| Industry/Business type | Registration; interview |
-| Shareholding & officers | GIS; shareholder registry; charter |
-| Guarantors background | Declarations; asset lists; address proofs |
-| KYC & credit checks | Adverse media; BAP-NFIS; CMAP; Loandex |
-| Trade checking | Vendor/customer records |
-| Bank checking | Bank confirmations; letters |
+<table>
+	<thead>
+		<tr>
+			<th>Subsection</th>
+			<th>Source</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td>Company profile &amp; scope</td><td>Company docs; AO interview notes</td></tr>
+		<tr><td>Industry/Business type</td><td>Registration; interview</td></tr>
+		<tr><td>Shareholding &amp; officers</td><td>GIS; shareholder registry; charter</td></tr>
+		<tr><td>Guarantors background</td><td>Declarations; asset lists; address proofs</td></tr>
+		<tr><td>KYC &amp; credit checks</td><td>Adverse media; BAP-NFIS; CMAP; Loandex</td></tr>
+		<tr><td>Trade checking</td><td>Vendor/customer records</td></tr>
+		<tr><td>Bank checking</td><td>Bank confirmations; letters</td></tr>
+	</tbody>
+</table>
 #### Required Uploads
 
-| Document | Purpose |
-|---|---|
-| GIS; registration docs | Corporate identity |
-| Board/shareholder resolutions | Signing authority |
-| Guarantor IDs & signatures | KYC and JSS |
-| Assets/liabilities list | JSS coverage |
-| Address proofs | Residence verification |
-| BAP/CMAP/Loandex | External credit checks |
-| Trade/bank checking | Conduct verification |
-| Tax documents | Financial corroboration |
+<table>
+	<thead>
+		<tr>
+			<th>Document</th>
+			<th>Purpose</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td>GIS; registration docs</td><td>Corporate identity</td></tr>
+		<tr><td>Board/shareholder resolutions</td><td>Signing authority</td></tr>
+		<tr><td>Guarantor IDs &amp; signatures</td><td>KYC and JSS</td></tr>
+		<tr><td>Assets/liabilities list</td><td>JSS coverage</td></tr>
+		<tr><td>Address proofs</td><td>Residence verification</td></tr>
+		<tr><td>BAP/CMAP/Loandex</td><td>External credit checks</td></tr>
+		<tr><td>Trade/bank checking</td><td>Conduct verification</td></tr>
+		<tr><td>Tax documents</td><td>Financial corroboration</td></tr>
+	</tbody>
+</table>
 #### Key Owner/Manager
 
-| Owner | Notes |
-|---|---|
-| Compliance/KYC | KYC checks |
-| AO | Background & interviews |
-| Legal | Resolutions/authorizations |
+<table>
+	<thead>
+		<tr>
+			<th>Owner</th>
+			<th>Notes</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td>Compliance/KYC</td><td>KYC checks</td></tr>
+		<tr><td>AO</td><td>Background &amp; interviews</td></tr>
+		<tr><td>Legal</td><td>Resolutions/authorizations</td></tr>
+	</tbody>
+</table>
 
 #### Validation & Rules
 
-| Rule |
-|---|
-| Names/IDs consistent across GIS, resolutions, IDs |
-| KYC status recorded (Pass/Pass w/ conditions/Review/Fail) with evidence |
-| Guarantor coverage adequate relative to exposure; addresses validated |
+<table>
+	<thead>
+		<tr><th>Rule</th></tr>
+	</thead>
+	<tbody>
+		<tr><td>Names/IDs consistent across GIS, resolutions, IDs</td></tr>
+		<tr><td>KYC status recorded (Pass/Pass w/ conditions/Review/Fail) with evidence</td></tr>
+		<tr><td>Guarantor coverage adequate relative to exposure; addresses validated</td></tr>
+	</tbody>
+	</table>
 
 #### Edge Cases & Red Flags
 
-| Red flag |
-|---|
-| Opaque UBOs |
-| Registry vs. representation inconsistencies |
-| Negative KYC hits |
-| Volatile OB/ADB or unfavorable bank checking |
-| Trade disputes indicated |
+<table>
+	<thead>
+		<tr><th>Red flag</th></tr>
+	</thead>
+	<tbody>
+		<tr><td>Opaque UBOs</td></tr>
+		<tr><td>Registry vs. representation inconsistencies</td></tr>
+		<tr><td>Negative KYC hits</td></tr>
+		<tr><td>Volatile OB/ADB or unfavorable bank checking</td></tr>
+		<tr><td>Trade disputes indicated</td></tr>
+	</tbody>
+</table>
 
 #### Example — this case
 
-| Topic | Detail | Source |
-|---|---|---|
-| JSS snapshot | Camille Padilla: assets ~PHP 4.80M; liabilities ~PHP 7.63M; net negative; co-surety assets list missing; one surety has minor child | p.3, p.7 |
-| Bank checking | BDO CA (2018; OB/ADB 6 digits; no bounced checks; active). BPI CA (2019; ADB PHP 42,748.69; active; OB not allowed) | p.4 |
+<table>
+	<thead>
+		<tr>
+			<th>Topic</th>
+			<th>Detail</th>
+			<th>Source</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td>JSS snapshot</td><td>Camille Padilla: assets ~PHP 4.80M; liabilities ~PHP 7.63M; net negative; co-surety assets list missing; one surety has minor child</td><td>p.3, p.7</td></tr>
+		<tr><td>Bank checking</td><td>BDO CA (2018; OB/ADB 6 digits; no bounced checks; active). BPI CA (2019; ADB PHP 42,748.69; active; OB not allowed)</td><td>p.4</td></tr>
+	</tbody>
+</table>
 
 #### Case-specific notes (from sample PDF):
 
@@ -316,10 +459,15 @@ Present company fundamentals, operating scale, ownership and guarantor backgroun
 Present recent financials, ratios/coverage, and cashflows; explain material changes.
 #### Content Structure
 
-| Section | Contents |
-|---|---|
-| Financial highlights | BS, IS, key ratios, operating cycle, cashflow |
-| Narrative analysis | Profitability; liquidity/leverage; cashflow drivers |
+<table>
+	<thead>
+		<tr><th>Section</th><th>Contents</th></tr>
+	</thead>
+	<tbody>
+		<tr><td>Financial highlights</td><td>BS, IS, key ratios, operating cycle, cashflow</td></tr>
+		<tr><td>Narrative analysis</td><td>Profitability; liquidity/leverage; cashflow drivers</td></tr>
+	</tbody>
+</table>
 
 #### Key Fields
 
@@ -330,66 +478,99 @@ Present recent financials, ratios/coverage, and cashflows; explain material chan
 - Trends and explanations for year-over-year movements and seasonality.
 #### Information Providers
 
-| Role | Responsibility |
-|---|---|
-| Client | Provide FS (audited preferred; else management FS) |
-| AO/Credit Analyst | Compute ratios and narrative |
-| Banks | Provide corroboration (statements/letters) |
+<table>
+	<thead>
+		<tr><th>Role</th><th>Responsibility</th></tr>
+	</thead>
+	<tbody>
+		<tr><td>Client</td><td>Provide FS (audited preferred; else management FS)</td></tr>
+		<tr><td>AO/Credit Analyst</td><td>Compute ratios and narrative</td></tr>
+		<tr><td>Banks</td><td>Provide corroboration (statements/letters)</td></tr>
+	</tbody>
+</table>
 #### Required Uploads
 
-| Document | Purpose |
-|---|---|
-| 3-year FS | Primary financials |
-| Bank statements | Cash corroboration |
-| Inventory details | Working capital analysis |
-| AR/AP aging | Ties to BS and cycle |
-| FA register | PP&E reconciliation |
-| Tax filings | External corroboration |
-| Equipment invoices & acceptance | Capex evidence |
+<table>
+	<thead>
+		<tr><th>Document</th><th>Purpose</th></tr>
+	</thead>
+	<tbody>
+		<tr><td>3-year FS</td><td>Primary financials</td></tr>
+		<tr><td>Bank statements</td><td>Cash corroboration</td></tr>
+		<tr><td>Inventory details</td><td>Working capital analysis</td></tr>
+		<tr><td>AR/AP aging</td><td>Ties to BS and cycle</td></tr>
+		<tr><td>FA register</td><td>PP&E reconciliation</td></tr>
+		<tr><td>Tax filings</td><td>External corroboration</td></tr>
+		<tr><td>Equipment invoices &amp; acceptance</td><td>Capex evidence</td></tr>
+	</tbody>
+</table>
 #### Key Owner/Manager
 
-| Owner | Notes |
-|---|---|
-| Credit Analyst | Prepares analysis |
-| AO | Facilitates data |
+<table>
+	<thead>
+		<tr><th>Owner</th><th>Notes</th></tr>
+	</thead>
+	<tbody>
+		<tr><td>Credit Analyst</td><td>Prepares analysis</td></tr>
+		<tr><td>AO</td><td>Facilitates data</td></tr>
+	</tbody>
+</table>
 
 #### Validation & Rules
 
-| Rule |
-|---|
-| Prefer audited FS; corroborate management accounts with bank statements and tax filings |
-| Tie AR/AP aging and inventory to BS totals; reconcile FA register to net PP&E |
-| Compute ratios consistently; DSCR uses normalized EBITDA and scheduled debt service |
+<table>
+	<thead>
+		<tr><th>Rule</th></tr>
+	</thead>
+	<tbody>
+		<tr><td>Prefer audited FS; corroborate management accounts with bank statements and tax filings</td></tr>
+		<tr><td>Tie AR/AP aging and inventory to BS totals; reconcile FA register to net PP&E</td></tr>
+		<tr><td>Compute ratios consistently; DSCR uses normalized EBITDA and scheduled debt service</td></tr>
+	</tbody>
+</table>
 
 #### Calculations / Ratio Formulas (indicative)
 
-| Metric | Formula |
-|---|---|
-| Current Ratio | Current Assets / Current Liabilities |
-| Quick Ratio | (Cash + AR) / Current Liabilities |
-| Leverage | Total Debt / Equity |
-| DSCR | EBITDA / (Interest + Current Maturity of LT Debt) |
-| Inventory Turnover | COGS / Avg Inventory |
-| Receivable Days | (AR / Revenue) * 365 |
+<table>
+	<thead>
+		<tr><th>Metric</th><th>Formula</th></tr>
+	</thead>
+	<tbody>
+		<tr><td>Current Ratio</td><td>Current Assets / Current Liabilities</td></tr>
+		<tr><td>Quick Ratio</td><td>(Cash + AR) / Current Liabilities</td></tr>
+		<tr><td>Leverage</td><td>Total Debt / Equity</td></tr>
+		<tr><td>DSCR</td><td>EBITDA / (Interest + Current Maturity of LT Debt)</td></tr>
+		<tr><td>Inventory Turnover</td><td>COGS / Avg Inventory</td></tr>
+		<tr><td>Receivable Days</td><td>(AR / Revenue) * 365</td></tr>
+	</tbody>
+</table>
 
 #### Edge Cases & Red Flags
 
-| Red flag |
-|---|
-| Significant related-party transactions |
-| Aggressive revenue growth without cash support |
-| Rising inventory/receivables days |
-| Negative operating cashflow or sustained losses |
-| Overreliance on short-term funding |
+<table>
+	<thead><tr><th>Red flag</th></tr></thead>
+	<tbody>
+		<tr><td>Significant related-party transactions</td></tr>
+		<tr><td>Aggressive revenue growth without cash support</td></tr>
+		<tr><td>Rising inventory/receivables days</td></tr>
+		<tr><td>Negative operating cashflow or sustained losses</td></tr>
+		<tr><td>Overreliance on short-term funding</td></tr>
+	</tbody>
+</table>
 
 #### Example — this case
 
-| Topic | Detail | Source |
-|---|---|---|
-| Profitability | Net income PHP 1.393M (2021) → 7.209M (2022) → 11.534M (2023); net margin 13.74% → 26.38% → 28.15%; EBITDA ~PHP 17.28M (2023) vs. 11.91M (2022) | p.5–6 |
-| Growth & margins | Sales growth 169.54% (2021→2022), 49.91% (2022→2023); GP 67.62% → 72.92% → 65.95%; Op margin 19.62% → 35.17% → 35.19% | p.5 |
-| Working capital | AR 8 → 0 → 0 days; Inventory 904 → 382 → 90 days; AP 519 → 405 → 350 days; Funding gap 393 → -24 → -260 | p.5 |
-| Liquidity & leverage | Current 1.91 → 1.19 → 0.59; Quick 0.11 → 0.16 → 0.18; D/E -40.51x → 7.49x → 2.33x | p.5 |
+<table>
+	<thead>
+		<tr><th>Topic</th><th>Detail</th><th>Source</th></tr>
+	</thead>
+	<tbody>
+		<tr><td>Profitability</td><td>Net income PHP 1.393M (2021) → 7.209M (2022) → 11.534M (2023); net margin 13.74% → 26.38% → 28.15%; EBITDA ~PHP 17.28M (2023) vs. 11.91M (2022)</td><td>p.5–6</td></tr>
+		<tr><td>Growth &amp; margins</td><td>Sales growth 169.54% (2021→2022), 49.91% (2022→2023); GP 67.62% → 72.92% → 65.95%; Op margin 19.62% → 35.17% → 35.19%</td><td>p.5</td></tr>
+		<tr><td>Working capital</td><td>AR 8 → 0 → 0 days; Inventory 904 → 382 → 90 days; AP 519 → 405 → 350 days; Funding gap 393 → -24 → -260</td><td>p.5</td></tr>
+		<tr><td>Liquidity &amp; leverage</td><td>Current 1.91 → 1.19 → 0.59; Quick 0.11 → 0.16 → 0.18; D/E -40.51x → 7.49x → 2.33x</td><td>p.5</td></tr>
+	</tbody>
+</table>
 
 #### Case-specific notes (from sample PDF):
 
@@ -408,51 +589,72 @@ Present recent financials, ratios/coverage, and cashflows; explain material chan
 Identify principal risks (e.g., liquidity, fund diversion, weak JSS, inventory obsolescence) and specific mitigants.
 #### Key Fields
 
-| Category | Fields |
-|---|---|
-| Risk register | id; category; description |
-| Ratings | Likelihood; impact; inherent/residual |
-| Mitigants | Action; owner; due date; expected effect; monitoring plan |
+<table>
+	<thead><tr><th>Category</th><th>Fields</th></tr></thead>
+	<tbody>
+		<tr><td>Risk register</td><td>id; category; description</td></tr>
+		<tr><td>Ratings</td><td>Likelihood; impact; inherent/residual</td></tr>
+		<tr><td>Mitigants</td><td>Action; owner; due date; expected effect; monitoring plan</td></tr>
+	</tbody>
+</table>
 #### Information Providers
 
-| Role | Responsibility |
-|---|---|
-| Credit Risk | Risk register ownership |
-| AO | Operational context |
-| Compliance/Legal | Policy/Legal inputs |
+<table>
+	<thead><tr><th>Role</th><th>Responsibility</th></tr></thead>
+	<tbody>
+		<tr><td>Credit Risk</td><td>Risk register ownership</td></tr>
+		<tr><td>AO</td><td>Operational context</td></tr>
+		<tr><td>Compliance/Legal</td><td>Policy/Legal inputs</td></tr>
+	</tbody>
+</table>
 #### Required Uploads
 
-| Document | Purpose |
-|---|---|
-| Conditions evidence | Support for mitigants (insurance, deposits, staged disbursement, etc.) |
+<table>
+	<thead><tr><th>Document</th><th>Purpose</th></tr></thead>
+	<tbody>
+		<tr><td>Conditions evidence</td><td>Support for mitigants (insurance, deposits, staged disbursement, etc.)</td></tr>
+	</tbody>
+</table>
 #### Key Owner/Manager
 
-| Owner | Notes |
-|---|---|
-| Credit Risk | Owns risk register |
-| Compliance/Legal | Co-owners for mitigants |
+<table>
+	<thead><tr><th>Owner</th><th>Notes</th></tr></thead>
+	<tbody>
+		<tr><td>Credit Risk</td><td>Owns risk register</td></tr>
+		<tr><td>Compliance/Legal</td><td>Co-owners for mitigants</td></tr>
+	</tbody>
+</table>
 
 #### Validation & Rules
 
-| Rule |
-|---|
-| High/critical risks must have at least one concrete mitigant or explicit acceptance |
-| Link mitigants to policy clauses (insurance beneficiary, staged disbursement CPs) |
+<table>
+	<thead><tr><th>Rule</th></tr></thead>
+	<tbody>
+		<tr><td>High/critical risks must have at least one concrete mitigant or explicit acceptance</td></tr>
+		<tr><td>Link mitigants to policy clauses (insurance beneficiary, staged disbursement CPs)</td></tr>
+	</tbody>
+</table>
 
 #### Edge Cases & Red Flags
 
-| Red flag |
-|---|
-| Generic/non-actionable mitigants |
-| No owner/timeline |
-| Infeasible dependencies |
+<table>
+	<thead><tr><th>Red flag</th></tr></thead>
+	<tbody>
+		<tr><td>Generic/non-actionable mitigants</td></tr>
+		<tr><td>No owner/timeline</td></tr>
+		<tr><td>Infeasible dependencies</td></tr>
+	</tbody>
+</table>
 
 #### Example — this case
 
-| Topic | Detail | Source |
-|---|---|---|
-| Key risks | Liquidity strain (current ratio 0.59); weak JSS coverage; high inventory days (improving); exposure vs. guarantor capacity | p.5–7 |
-| Candidate mitigants | EEI insurance beneficiary; staged disbursement; higher equity/deposit; complete co-surety assets; monitor ADB/OB; align PDC to amortization | p.2, p.5–7 |
+<table>
+	<thead><tr><th>Topic</th><th>Detail</th><th>Source</th></tr></thead>
+	<tbody>
+		<tr><td>Key risks</td><td>Liquidity strain (current ratio 0.59); weak JSS coverage; high inventory days (improving); exposure vs. guarantor capacity</td><td>p.5–7</td></tr>
+		<tr><td>Candidate mitigants</td><td>EEI insurance beneficiary; staged disbursement; higher equity/deposit; complete co-surety assets; monitor ADB/OB; align PDC to amortization</td><td>p.2, p.5–7</td></tr>
+	</tbody>
+</table>
 
 #### Case-specific notes (from sample PDF):
 
@@ -467,53 +669,74 @@ Identify principal risks (e.g., liquidity, fund diversion, weak JSS, inventory o
 After weighing risks and mitigants, specify facility limit(s), sub-limits, drawdown cadence, conditions precedent (CP), and prohibited actions.
 #### Key Fields
 
-| Category | Fields |
-|---|---|
-| Final facility terms | Total limit; sub-limits (purpose, amount); tenor; amortization; pricing (IRR/EY); fees |
-| Disbursement plan | Stages/milestones; documentation triggers (delivery/acceptance/insurance) |
-| CPs & Covenants | Conditions precedent; ongoing covenants; prohibited actions; exceptions |
-| Residual risk | Statement; justification; monitoring cadence |
+<table>
+	<thead><tr><th>Category</th><th>Fields</th></tr></thead>
+	<tbody>
+		<tr><td>Final facility terms</td><td>Total limit; sub-limits (purpose, amount); tenor; amortization; pricing (IRR/EY); fees</td></tr>
+		<tr><td>Disbursement plan</td><td>Stages/milestones; documentation triggers (delivery/acceptance/insurance)</td></tr>
+		<tr><td>CPs &amp; Covenants</td><td>Conditions precedent; ongoing covenants; prohibited actions; exceptions</td></tr>
+		<tr><td>Residual risk</td><td>Statement; justification; monitoring cadence</td></tr>
+	</tbody>
+</table>
 #### Information Providers
 
-| Role | Responsibility |
-|---|---|
-| Credit review team | Draft recommendation and rationale |
+<table>
+	<thead><tr><th>Role</th><th>Responsibility</th></tr></thead>
+	<tbody>
+		<tr><td>Credit review team</td><td>Draft recommendation and rationale</td></tr>
+	</tbody>
+</table>
 #### Required Uploads
 
-| Document | Purpose |
-|---|---|
-| Meeting minutes | Decision evidence |
-| Conditions checklist | CP tracking |
-| Annexes/amendments | Contractual terms |
+<table>
+	<thead><tr><th>Document</th><th>Purpose</th></tr></thead>
+	<tbody>
+		<tr><td>Meeting minutes</td><td>Decision evidence</td></tr>
+		<tr><td>Conditions checklist</td><td>CP tracking</td></tr>
+		<tr><td>Annexes/amendments</td><td>Contractual terms</td></tr>
+	</tbody>
+</table>
 #### Key Owner/Manager
 
-| Owner | Notes |
-|---|---|
-| Credit Review Lead | Drafting |
-| Approver/Committee | Decision authority |
+<table>
+	<thead><tr><th>Owner</th><th>Notes</th></tr></thead>
+	<tbody>
+		<tr><td>Credit Review Lead</td><td>Drafting</td></tr>
+		<tr><td>Approver/Committee</td><td>Decision authority</td></tr>
+	</tbody>
+</table>
 
 #### Validation & Rules
 
-| Rule |
-|---|
-| CPs must be measurable/verifiable |
-| Disbursement matches delivery/acceptance; prohibited actions align to policy |
-| Exceptions stated and approved; monitoring cadence and reporting obligations defined |
+<table>
+	<thead><tr><th>Rule</th></tr></thead>
+	<tbody>
+		<tr><td>CPs must be measurable/verifiable</td></tr>
+		<tr><td>Disbursement matches delivery/acceptance; prohibited actions align to policy</td></tr>
+		<tr><td>Exceptions stated and approved; monitoring cadence and reporting obligations defined</td></tr>
+	</tbody>
+</table>
 
 #### Edge Cases & Red Flags
 
-| Red flag |
-|---|
-| Ambiguous CPs |
-| Drawdown plan not tied to documentary evidence |
-| Missing prohibited action list |
+<table>
+	<thead><tr><th>Red flag</th></tr></thead>
+	<tbody>
+		<tr><td>Ambiguous CPs</td></tr>
+		<tr><td>Drawdown plan not tied to documentary evidence</td></tr>
+		<tr><td>Missing prohibited action list</td></tr>
+	</tbody>
+</table>
 
 #### Example — this case
 
-| Topic | Detail | Source |
-|---|---|---|
-| Indicative terms | Refer to Request: Lease + two MTL sub-limits with tenors/payments and IRR/EY/AOR | p.1 |
-| CPs & covenants | Insurance beneficiary; complete docs (quotation/invoice, PN+Addendum, S&P Installment); PDCs; disbursement on delivery & acceptance; consider JSS strengthening | p.1–2 |
+<table>
+	<thead><tr><th>Topic</th><th>Detail</th><th>Source</th></tr></thead>
+	<tbody>
+		<tr><td>Indicative terms</td><td>Refer to Request: Lease + two MTL sub-limits with tenors/payments and IRR/EY/AOR</td><td>p.1</td></tr>
+		<tr><td>CPs &amp; covenants</td><td>Insurance beneficiary; complete docs (quotation/invoice, PN+Addendum, S&amp;P Installment); PDCs; disbursement on delivery &amp; acceptance; consider JSS strengthening</td><td>p.1–2</td></tr>
+	</tbody>
+</table>
 
 #### Case-specific notes (from sample PDF):
 
@@ -526,44 +749,62 @@ After weighing risks and mitigants, specify facility limit(s), sub-limits, drawd
 Summarize drafter, reviewer(s), co-signees, approver(s), and dates.
 #### Required Uploads
 
-| Document | Purpose |
-|---|---|
-| Sign-off form; e-approval screenshots | Approval evidence |
+<table>
+	<thead><tr><th>Document</th><th>Purpose</th></tr></thead>
+	<tbody>
+		<tr><td>Sign-off form; e-approval screenshots</td><td>Approval evidence</td></tr>
+	</tbody>
+</table>
 #### Key Fields
 
-| Field | Notes |
-|---|---|
-| Drafter; reviewers; endorsers; approver(s) | Roles and names |
-| Dates; authority references | Timeline and authority level |
-| Comments | Approval remarks |
+<table>
+	<thead><tr><th>Field</th><th>Notes</th></tr></thead>
+	<tbody>
+		<tr><td>Drafter; reviewers; endorsers; approver(s)</td><td>Roles and names</td></tr>
+		<tr><td>Dates; authority references</td><td>Timeline and authority level</td></tr>
+		<tr><td>Comments</td><td>Approval remarks</td></tr>
+	</tbody>
+</table>
 #### Key Owner/Manager
 
-| Owner | Notes |
-|---|---|
-| Credit Administration/PMO | Workflow integrity |
-| Approver(s) | Final sign-off |
+<table>
+	<thead><tr><th>Owner</th><th>Notes</th></tr></thead>
+	<tbody>
+		<tr><td>Credit Administration/PMO</td><td>Workflow integrity</td></tr>
+		<tr><td>Approver(s)</td><td>Final sign-off</td></tr>
+	</tbody>
+</table>
 
 #### Validation & Rules
 
-| Rule |
-|---|
-| Authority level matches exposure |
-| Approvals dated/sequenced; conditional approvals captured |
-| Immutable audit trail linked to report version |
+<table>
+	<thead><tr><th>Rule</th></tr></thead>
+	<tbody>
+		<tr><td>Authority level matches exposure</td></tr>
+		<tr><td>Approvals dated/sequenced; conditional approvals captured</td></tr>
+		<tr><td>Immutable audit trail linked to report version</td></tr>
+	</tbody>
+</table>
 
 #### Edge Cases & Red Flags
 
-| Red flag |
-|---|
-| Missing reviewer stage |
-| Approver outside authority |
-| Unsigned or missing artifacts |
+<table>
+	<thead><tr><th>Red flag</th></tr></thead>
+	<tbody>
+		<tr><td>Missing reviewer stage</td></tr>
+		<tr><td>Approver outside authority</td></tr>
+		<tr><td>Unsigned or missing artifacts</td></tr>
+	</tbody>
+</table>
 
 #### Example — this case
 
-| Topic | Detail | Source |
-|---|---|---|
-| Approval artifacts | Not visible in provided pages; weak JSS implies heightened scrutiny/CPs | p.7 |
+<table>
+	<thead><tr><th>Topic</th><th>Detail</th><th>Source</th></tr></thead>
+	<tbody>
+		<tr><td>Approval artifacts</td><td>Not visible in provided pages; weak JSS implies heightened scrutiny/CPs</td><td>p.7</td></tr>
+	</tbody>
+</table>
 
 ### Appendix A: Credit Grading Parameter 🧮
 
@@ -572,44 +813,62 @@ Summarize drafter, reviewer(s), co-signees, approver(s), and dates.
 Quantify management/operations, financials, and conduct; aggregate to a grade.
 #### Required Uploads
 
-| Document | Purpose |
-|---|---|
-| Scorecard; calculation details; screenshots | Grading evidence |
+<table>
+	<thead><tr><th>Document</th><th>Purpose</th></tr></thead>
+	<tbody>
+		<tr><td>Scorecard; calculation details; screenshots</td><td>Grading evidence</td></tr>
+	</tbody>
+</table>
 #### Key Fields
 
-| Field | Notes |
-|---|---|
-| Criteria and weights | As per scorecard |
-| Component scores | Management/operations; financial; conduct |
-| Total score | Aggregate result |
-| Grade & threshold | Mapped grade |
+<table>
+	<thead><tr><th>Field</th><th>Notes</th></tr></thead>
+	<tbody>
+		<tr><td>Criteria and weights</td><td>As per scorecard</td></tr>
+		<tr><td>Component scores</td><td>Management/operations; financial; conduct</td></tr>
+		<tr><td>Total score</td><td>Aggregate result</td></tr>
+		<tr><td>Grade &amp; threshold</td><td>Mapped grade</td></tr>
+	</tbody>
+</table>
 #### Key Owner/Manager
 
-| Owner | Notes |
-|---|---|
-| Credit Risk | Model owner |
-| Analyst | Inputs to score |
+<table>
+	<thead><tr><th>Owner</th><th>Notes</th></tr></thead>
+	<tbody>
+		<tr><td>Credit Risk</td><td>Model owner</td></tr>
+		<tr><td>Analyst</td><td>Inputs to score</td></tr>
+	</tbody>
+</table>
 
 #### Validation & Rules
 
-| Rule |
-|---|
-| Versioned scorecard template |
-| Thresholds approved by policy |
-| Overrides documented and approved |
+<table>
+	<thead><tr><th>Rule</th></tr></thead>
+	<tbody>
+		<tr><td>Versioned scorecard template</td></tr>
+		<tr><td>Thresholds approved by policy</td></tr>
+		<tr><td>Overrides documented and approved</td></tr>
+	</tbody>
+</table>
 
 #### Edge Cases & Red Flags
 
-| Red flag |
-|---|
-| Missing evidence for component scores |
-| Grade inconsistent with financial risk and conduct |
+<table>
+	<thead><tr><th>Red flag</th></tr></thead>
+	<tbody>
+		<tr><td>Missing evidence for component scores</td></tr>
+		<tr><td>Grade inconsistent with financial risk and conduct</td></tr>
+	</tbody>
+</table>
 
 #### Example — this case
 
-| Topic | Detail | Source |
-|---|---|---|
-| Credit grading | Section indicated; detailed fields not legible | p.8 |
+<table>
+	<thead><tr><th>Topic</th><th>Detail</th><th>Source</th></tr></thead>
+	<tbody>
+		<tr><td>Credit grading</td><td>Section indicated; detailed fields not legible</td><td>p.8</td></tr>
+	</tbody>
+</table>
 
 ### Appendix B: Client Visit Pictures 📸
 
@@ -618,44 +877,62 @@ Quantify management/operations, financials, and conduct; aggregate to a grade.
 On-site evidence of equipment, footfall, storefront, and operating conditions.
 #### Required Uploads
 
-| Document | Purpose |
-|---|---|
-| Photos/videos (geotagged/time-stamped) | Site evidence |
+<table>
+	<thead><tr><th>Document</th><th>Purpose</th></tr></thead>
+	<tbody>
+		<tr><td>Photos/videos (geotagged/time-stamped)</td><td>Site evidence</td></tr>
+	</tbody>
+</table>
 #### Key Fields
 
-| Field | Notes |
-|---|---|
-| Photo/video list | Catalog of evidence |
-| Timestamps & geolocation | Integrity and provenance |
-| Annotations | Brief descriptions |
-| Linkages | Map to equipment items/areas |
+<table>
+	<thead><tr><th>Field</th><th>Notes</th></tr></thead>
+	<tbody>
+		<tr><td>Photo/video list</td><td>Catalog of evidence</td></tr>
+		<tr><td>Timestamps &amp; geolocation</td><td>Integrity and provenance</td></tr>
+		<tr><td>Annotations</td><td>Brief descriptions</td></tr>
+		<tr><td>Linkages</td><td>Map to equipment items/areas</td></tr>
+	</tbody>
+</table>
 #### Key Owner/Manager
 
-| Owner | Notes |
-|---|---|
-| AO/RM | Capture |
-| Operations/Audit | Validation |
+<table>
+	<thead><tr><th>Owner</th><th>Notes</th></tr></thead>
+	<tbody>
+		<tr><td>AO/RM</td><td>Capture</td></tr>
+		<tr><td>Operations/Audit</td><td>Validation</td></tr>
+	</tbody>
+</table>
 
 #### Validation & Rules
 
-| Rule |
-|---|
-| Photos geotagged/time-stamped; no alteration |
-| Link each photo to equipment/location; align with delivery/acceptance docs |
+<table>
+	<thead><tr><th>Rule</th></tr></thead>
+	<tbody>
+		<tr><td>Photos geotagged/time-stamped; no alteration</td></tr>
+		<tr><td>Link each photo to equipment/location; align with delivery/acceptance docs</td></tr>
+	</tbody>
+</table>
 
 #### Edge Cases & Red Flags
 
-| Red flag |
-|---|
-| Photos not from claimed site |
-| Mismatched timestamps |
-| Missing required angles or serial labels |
+<table>
+	<thead><tr><th>Red flag</th></tr></thead>
+	<tbody>
+		<tr><td>Photos not from claimed site</td></tr>
+		<tr><td>Mismatched timestamps</td></tr>
+		<tr><td>Missing required angles or serial labels</td></tr>
+	</tbody>
+</table>
 
 #### Example — this case
 
-| Topic | Detail | Source |
-|---|---|---|
-| Visit pictures | Placeholder present; specific images not visible in text extraction | p.8 |
+<table>
+	<thead><tr><th>Topic</th><th>Detail</th><th>Source</th></tr></thead>
+	<tbody>
+		<tr><td>Visit pictures</td><td>Placeholder present; specific images not visible in text extraction</td><td>p.8</td></tr>
+	</tbody>
+</table>
 
 #### Section-to-Module Overview
 ```mermaid
