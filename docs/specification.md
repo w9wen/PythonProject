@@ -185,22 +185,11 @@ Consolidate the core terms and structure of the credit application as the index 
 		<tr><td>Sub-limit 3 (MTL B)</td><td>PHP 10,000,000; 36 mos; Monthly PHP 356,528; IRR 18.07%; AOR 28.35%</td><td>p.1</td></tr>
 		<tr><td>Payment method</td><td>Post Dated Checks (PDC)</td><td>p.1</td></tr>
 		<tr><td>Indicative CPs</td><td>EEI insurance naming YFP as Assured/Loss Payee; notarization; upfront fee 1% per availment</td><td>p.2</td></tr>
+        <tr><td>Purpose</td><td>Not fully visible in excerpt</td><td>p.1</td></tr>
+        <tr><td>Supplier</td><td>Tritan Ventures Inc. (BTL distributor)</td><td>p.1</td></tr>
 	</tbody>
 </table>
 
-#### Case-specific notes (from sample PDF):
-
-- Borrower: Sparkle and Glow Beauty Innovations Corp. (p.1)
-- Source of account: BDO – E. Ching (p.1)
-- Credit accommodation: Credit Line via Finance Lease and Medium-term Loan; Availment No.: 1st (p.1)
-- Asset type: Aesthetic/Medical Equipment; Brand: BTL (via Tritan Ventures Inc.); Condition: Brand New (p.1)
-- Limits/terms (as shown in table, p.1):
-  - Sub-limits: PHP 20,000,000; PHP 10,000,000; PHP 10,000,000 (across Leasing / Medium-Term Loan options)
-  - Terms: 36 mos; 24 mos; 36 mos
-  - Monthly payments: PHP 713,055; PHP 494,423; PHP 356,528
-  - Effective Yield (EY): ~17%; IRR: ~17%, 18.04%, 18.07%; AOR: ~28.35%, 18.66%, 28.35%
-- Mode of payment: Post Dated Checks (PDC) (p.1)
-- Purpose of the loan: not fully visible in excerpt (p.1)
 
 ### II. Sales Recommendation (SALES RECOMMENDATION) 💼
 
@@ -308,20 +297,10 @@ Sales’ rationale for the transaction’s advantages and the proposed credit st
 		<tr><td>Highlights</td><td>~6 years in operation; Net Income uptrend 2021→2023; 2024 service income ~PHP 3.3M–7.3M; strong supplier/customer relationships</td><td>p.2</td></tr>
 		<tr><td>Conditions/fees</td><td>EEI insurance; Notarial fee PHP 3,000</td><td>p.2</td></tr>
 		<tr><td>MTL documents</td><td>Quotation/invoice; PN+Addendum; S&P with Installment; Upfront fee 1% per availment</td><td>p.2</td></tr>
+				<tr><td>Hit-rate/relationship</td><td>Strong relationships with major aesthetic suppliers/customers; historical hit-rate indicated</td><td>p.2</td></tr>
 	</tbody>
 </table>
 
-#### Case-specific notes (from sample PDF):
-
-- Documentation/conditions excerpted prior to section header (p.2):
-  - EEI insurance covering leased asset with YFP as Assured Party or Loss Payee
-  - Notarial fee: PHP 3,000
-  - Medium-Term Loan doc set: Supplier quotation/invoice; PN with Addendum; Sale & Purchase with Installment Agreement; Upfront fee 1% of AF per availment
-- Sales recommendation highlights (p.2):
-  1) ~6 years in operation
-  2) Upward Net Income trend 2021→2023 (per in-house FS)
-  3) Consistent service income ~PHP 3.3M–7.3M in 2024
-  4) Strong relationship with major aesthetic suppliers/customers (partial text visible)
 
 ### III. Background Information (BACKGROUND INFORMATION) 🏢
 
@@ -442,15 +421,11 @@ Present company fundamentals, operating scale, ownership and guarantor backgroun
 	<tbody>
 		<tr><td>JSS snapshot</td><td>Camille Padilla: assets ~PHP 4.80M; liabilities ~PHP 7.63M; net negative; co-surety assets list missing; one surety has minor child</td><td>p.3, p.7</td></tr>
 		<tr><td>Bank checking</td><td>BDO CA (2018; OB/ADB 6 digits; no bounced checks; active). BPI CA (2019; ADB PHP 42,748.69; active; OB not allowed)</td><td>p.4</td></tr>
+        <tr><td>Existing exposure</td><td>Existing facilities for borrower ~PHP 33.24M referenced in notes</td><td>p.3</td></tr>
+        <tr><td>Bank details</td><td>BDO (Rockwell Center - Makati); BPI (38th St BGC); contacts listed; dates confirmed</td><td>p.4</td></tr>
 	</tbody>
 </table>
 
-#### Case-specific notes (from sample PDF):
-
-- Guarantor (JSS) snapshot (p.3): Camille Padilla — personal assets ~PHP 4.80M; personal liabilities ~PHP 7.63M; existing facilities for borrower ~PHP 33.24M; net personal position negative; no submitted assets list for co-surety (Krishia Dizon noted)
-- Bank checking (p.4):
-  - BDO CA (Rockwell Center - Makati): accounts opened 2018; OB/ADB indicated as 6 digits; no bounced checks as of 03/27/2025; contact listed
-  - BPI CA (38th St BGC): opened 06/13/2019; ADB PHP 42,748.69 (as of 03/27/2025); account confirmed active; OB not allowed per client/ABM
 
 ### IV. Financial Performance (FINANCIAL PERFORMANCE) 📊
 
@@ -569,18 +544,11 @@ Present recent financials, ratios/coverage, and cashflows; explain material chan
 		<tr><td>Growth &amp; margins</td><td>Sales growth 169.54% (2021→2022), 49.91% (2022→2023); GP 67.62% → 72.92% → 65.95%; Op margin 19.62% → 35.17% → 35.19%</td><td>p.5</td></tr>
 		<tr><td>Working capital</td><td>AR 8 → 0 → 0 days; Inventory 904 → 382 → 90 days; AP 519 → 405 → 350 days; Funding gap 393 → -24 → -260</td><td>p.5</td></tr>
 		<tr><td>Liquidity &amp; leverage</td><td>Current 1.91 → 1.19 → 0.59; Quick 0.11 → 0.16 → 0.18; D/E -40.51x → 7.49x → 2.33x</td><td>p.5</td></tr>
+	<tr><td>Shareholder advances</td><td>Non-interest-bearing; used to support operations during pandemic; decreasing from PHP 44.56M (2021) to PHP 27.45M (2023)</td><td>p.6</td></tr>
+	<tr><td>Debt service</td><td>No historical debt service noted 2021–2023; EBITDA improved in 2023</td><td>p.6</td></tr>
 	</tbody>
 </table>
 
-#### Case-specific notes (from sample PDF):
-
-- Selected P&L figures (p.5): Net Income: 2021 PHP 1.393M; 2022 PHP 7.209M; 2023 PHP 11.534M; Net income margin: 13.74% → 26.38% → 28.15%
-- Ratios and working capital (p.5):
-  - Sales growth: 169.54% (2021→2022); 49.91% (2022→2023)
-  - Gross profit margin: 67.62% → 72.92% → 65.95%; Operating margin: 19.62% → 35.17% → 35.19%
-  - Days: AR 8 → 0 → 0; Inventory 904 → 382 → 90; AP 519 → 405 → 350; Funding gap 393 → -24 → -260
-  - Liquidity: Current ratio 1.91 → 1.19 → 0.59; Quick ratio 0.11 → 0.16 → 0.18
-  - Leverage: D/E -40.51x → 7.49x → 2.33x
 
 ### V. Risks & Mitigants (RISKS & MITIGANTS) ⚠️
 
@@ -653,14 +621,10 @@ Identify principal risks (e.g., liquidity, fund diversion, weak JSS, inventory o
 	<tbody>
 		<tr><td>Key risks</td><td>Liquidity strain (current ratio 0.59); weak JSS coverage; high inventory days (improving); exposure vs. guarantor capacity</td><td>p.5–7</td></tr>
 		<tr><td>Candidate mitigants</td><td>EEI insurance beneficiary; staged disbursement; higher equity/deposit; complete co-surety assets; monitor ADB/OB; align PDC to amortization</td><td>p.2, p.5–7</td></tr>
+		<tr><td>JSS concern</td><td>Surety personal assets (~PHP 4.80M) less than liabilities (~PHP 7.63M); co-surety assets list missing; one surety has a minor child</td><td>p.7</td></tr>
+		<tr><td>Monitoring plan</td><td>Track bank ADB/OB trends; verify insurance is in force; ensure PDC schedule matches amortization</td><td>p.2, p.4–5</td></tr>
 	</tbody>
 </table>
-
-#### Case-specific notes (from sample PDF):
-
-- Shareholder advances (p.6): Non-interest-bearing advances from Chairman/President/CEO used to support operations during pandemic; decreasing balance (PHP 44.56M in 2021 → PHP 27.45M in 2023)
-- Cashflow/EBITDA (p.6): EBITDA ~PHP 17.28M (2023) vs. PHP 11.91M (2022); no historical debt service 2021–2023 noted
-- Weak JSS (p.7): Surety personal assets (~PHP 4.80M) < personal liabilities (~PHP 7.63M); proposed PHP 30M loan increases exposure; co-surety assets list not submitted; one surety has a minor child; family has other business activities
 
 ### VI. Credit Recommendation/Justification (CREDIT RECOMMENDATION/JUSTIFICATION) ✅
 
@@ -735,12 +699,10 @@ After weighing risks and mitigants, specify facility limit(s), sub-limits, drawd
 	<tbody>
 		<tr><td>Indicative terms</td><td>Refer to Request: Lease + two MTL sub-limits with tenors/payments and IRR/EY/AOR</td><td>p.1</td></tr>
 		<tr><td>CPs &amp; covenants</td><td>Insurance beneficiary; complete docs (quotation/invoice, PN+Addendum, S&amp;P Installment); PDCs; disbursement on delivery &amp; acceptance; consider JSS strengthening</td><td>p.1–2</td></tr>
+		<tr><td>Assumptions</td><td>Recommendation terms interleaved with request/financial sections; rely on Request and Risks tables for specifics</td><td>p.1–2, p.5–7</td></tr>
 	</tbody>
 </table>
 
-#### Case-specific notes (from sample PDF):
-
-- Not explicitly presented in extracted pages; recommendation terms appear interleaved with request/financial sections. Refer to Request table (p.1) for indicative terms and to Risk notes for CP concepts (e.g., insurance beneficiary, staged disbursement).
 
 ### Sign-off & Authority (Credit Recommending/Endorsing/Approval Authority) ✍️
 
