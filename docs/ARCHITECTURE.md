@@ -3,6 +3,8 @@ title: Architecture & Implementation
 layout: default
 ---
 
+<link rel="stylesheet" href="./assets/css/custom.css">
+
 <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', () => {
@@ -22,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <meta name="robots" content="noindex,nofollow">
 
-<div markdown="1" style="font-size: 16px; line-height: 1.6">
+<!-- Removed HTML wrapper to ensure Markdown is parsed normally by kramdown -->
 
 # Credit Evaluation System — Architecture & Implementation Notes 🛠️
 
@@ -274,6 +276,5 @@ flowchart LR
 
 <!-- Removed placeholder sections to keep this document focused on actionable architecture content. -->
 
-<!-- end font wrapper -->
-</div>
+<!-- end of document -->
 

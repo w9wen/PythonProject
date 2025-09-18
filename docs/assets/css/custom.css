@@ -1,0 +1,19 @@
+/* Improve table visibility and spacing */
+.table-wrapper, table {
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 1rem 0 2rem;
+  font-size: 16px;
+}
+
+table th, table td {
+  border: 1px solid #d0d7de;
+  padding: 8px 10px;
+}
+
+table thead th {
+  background: #f6f8fa;
+}

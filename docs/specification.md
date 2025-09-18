@@ -3,6 +3,8 @@ title: Functional Specification
 layout: default
 ---
 
+<link rel="stylesheet" href="./assets/css/custom.css">
+
 <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', () => {
@@ -22,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <meta name="robots" content="noindex,nofollow">
 
-<div markdown="1" style="font-size: 16px; line-height: 1.6">
+<!-- Typography handled by theme; avoid HTML wrappers that can interfere with Markdown parsing -->
 # Credit Evaluation System — Functional Specification (Section-by-Section) ✨
 
 This document is the user/developer communication spec. System architecture and implementation notes were moved to `ARCHITECTURE.md`.
@@ -675,8 +677,4 @@ graph TD
 	linkStyle 9 stroke-width:3px
 	linkStyle 10 stroke-width:3px
 ```
----
-
-<!-- end font wrapper -->
-</div>
 

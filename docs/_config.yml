@@ -9,9 +9,15 @@ kramdown:
   input: GFM
   hard_wrap: false
   parse_block_html: true
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+  typographic_symbols:
+    mdash: ---
+    ndash: --
 
 # Optional toggles supported by some themes
 show_downloads: false
+
+# No plugin changes required; theme is a built-in GitHub Pages theme
 
 # Add meta robots to discourage indexing (not access control)
 defaults:
