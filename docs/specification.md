@@ -44,36 +44,60 @@ The following mirrors the Chinese structure exactly, with English terminology an
 Consolidate the core terms and structure of the credit application as the index for review and approval.
 #### Key Fields
 
-| Category | Fields |
-|---|---|
-| Borrower & Channel | Borrower name; intake channel (RM/AO) |
-| Facility Instrument | Finance lease; short-/mid-term loan; currency |
-| Asset/Equipment | Type; brand; model; condition (new/used); qty; unit price; serial no.; supplier |
-| Facility Economics | Total limit; sub-limit allocation; tenor (months); repayment frequency; amortization type; grace period; monthly installment |
-| Pricing & Fees | IRR/EY; nominal rate basis; AOR; arrangement/origination fees; DST; other charges |
-| Payment Terms | Method; PDC plan (count, dates, amounts); auto-debit instructions |
-| Protections/CPs | Insurance (coverage, beneficiary); notarization; JSS; collateral/retention; delivery/acceptance preconditions |
-| Use of Proceeds | Description and timelines |
+<table>
+	<thead>
+		<tr>
+			<th>Category</th>
+			<th>Fields</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td>Borrower &amp; Channel</td><td>Borrower name; intake channel (RM/AO)</td></tr>
+		<tr><td>Facility Instrument</td><td>Finance lease; short-/mid-term loan; currency</td></tr>
+		<tr><td>Asset/Equipment</td><td>Type; brand; model; condition (new/used); qty; unit price; serial no.; supplier</td></tr>
+		<tr><td>Facility Economics</td><td>Total limit; sub-limit allocation; tenor (months); repayment frequency; amortization type; grace period; monthly installment</td></tr>
+		<tr><td>Pricing &amp; Fees</td><td>IRR/EY; nominal rate basis; AOR; arrangement/origination fees; DST; other charges</td></tr>
+		<tr><td>Payment Terms</td><td>Method; PDC plan (count, dates, amounts); auto-debit instructions</td></tr>
+		<tr><td>Protections/CPs</td><td>Insurance (coverage, beneficiary); notarization; JSS; collateral/retention; delivery/acceptance preconditions</td></tr>
+		<tr><td>Use of Proceeds</td><td>Description and timelines</td></tr>
+	</tbody>
+	</table>
 #### Information Providers
 
-| Role | Responsibility |
-|---|---|
-| AO/RM | Case ownership, collect terms |
-| Sales | Commercial terms, supplier coordination |
-| Borrower | Management inputs, approvals |
-| Supplier | Quotation, equipment details |
+<table>
+	<thead>
+		<tr>
+			<th>Role</th>
+			<th>Responsibility</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td>AO/RM</td><td>Case ownership, collect terms</td></tr>
+		<tr><td>Sales</td><td>Commercial terms, supplier coordination</td></tr>
+		<tr><td>Borrower</td><td>Management inputs, approvals</td></tr>
+		<tr><td>Supplier</td><td>Quotation, equipment details</td></tr>
+	</tbody>
+</table>
 #### Required Uploads
 
-| Document | Purpose |
-|---|---|
-| Sales proposal/quotation | Terms and pricing |
-| Equipment list (w/ serials) | Asset details and identification |
-| Payment terms | Repayment structure |
-| Delivery/acceptance notes | Disbursement precondition evidence |
-| PDC schedule | Payment method proof |
-| Use-of-proceeds statement | Purpose justification |
-| Authorization docs/seal | Signing authority |
-| Insurance clauses/quotes | Beneficiary and coverage |
+<table>
+	<thead>
+		<tr>
+			<th>Document</th>
+			<th>Purpose</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td>Sales proposal/quotation</td><td>Terms and pricing</td></tr>
+		<tr><td>Equipment list (w/ serials)</td><td>Asset details and identification</td></tr>
+		<tr><td>Payment terms</td><td>Repayment structure</td></tr>
+		<tr><td>Delivery/acceptance notes</td><td>Disbursement precondition evidence</td></tr>
+		<tr><td>PDC schedule</td><td>Payment method proof</td></tr>
+		<tr><td>Use-of-proceeds statement</td><td>Purpose justification</td></tr>
+		<tr><td>Authorization docs/seal</td><td>Signing authority</td></tr>
+		<tr><td>Insurance clauses/quotes</td><td>Beneficiary and coverage</td></tr>
+	</tbody>
+</table>
 #### Key Owner/Manager
 
 | Owner | Notes |
